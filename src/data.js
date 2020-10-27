@@ -161,4 +161,4 @@ const images = [
     }
   ];
   
-  export default Images;
+  export default images;
