@@ -3,16 +3,23 @@
 }
 
 body {
-  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+  background-image: url('./background.jpg');
 }
 
 .ImageItem {
- grid-template-columns: auto;
- margin: 20px;
- width: 300px;
-
+  height: 100px;
+  width: 100px;
+  display: grid;
+  grid-template-rows: auto;
 }
 
+.heads {
+  font-family: 'Courier New', Courier, monospace
+}
 .menu {
   width: 400px;
 }
