@@ -1,37 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
 .App {
   text-align: center;
 }
 
 body {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
+  grid-row: auto;
   grid-gap: 15px;
   background-image: url('./background.jpg');
 }
 
 .ImageItem {
-  height: 100px;
-  width: 100px;
-  display: grid;
-  grid-template-rows: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  width: 200px;
+  padding: 0 4px;
 }
-
 .heads {
-  font-family: 'Courier New', Courier, monospace
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 50px;
+
 }
 .menu {
   width: 400px;
+  margin-left: 50px;
+
 }
 .titles {
   font-size: 3rem;
+  font-family: 'Staatliches', cursive;
+  margin-left: 50px;
+
 }
 .description {
   font-size: 1rem;
+  font-family: 'Staatliches', cursive;
+  margin-left: 75px;
+
 }
 .keyword {
   font-size: 1rem;
+  font-family: 'Staatliches', cursive;
+  margin-left: 100px;
+
 }
 .horns {
   font-size: 1rem;
+  font-family: 'Staatliches', cursive;
+  margin-left: 125px;
+
 }

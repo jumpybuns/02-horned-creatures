@@ -5,7 +5,7 @@ export default class ImageItem extends React.Component {
     render() {
         return (
         <div> 
-            <img className="ImageItem" src={this.props.url} alt={this.props.description}></img>
+            <img className="ImageItem" src={this.props.url} alt={this.props.description} width="200" ></img>
             <h2 className="titles">{this.props.title}</h2>
             <h2 className="description">{this.props.description}</h2>
             <h2 className="keyword">Keyword:{this.props.keyword}</h2>
