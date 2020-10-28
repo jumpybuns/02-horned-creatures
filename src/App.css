@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+  background-image: url('./background.jpg');
+}
+
+.ImageItem {
+  height: 100px;
+  width: 100px;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.heads {
+  font-family: 'Courier New', Courier, monospace
+}
+.menu {
+  width: 400px;
+}
+.titles {
+  font-size: 3rem;
+}
+.description {
+  font-size: 1rem;
+}
+.keyword {
+  font-size: 1rem;
+}
+.horns {
+  font-size: 1rem;
+}
